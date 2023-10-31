@@ -1,6 +1,6 @@
 #This is my main.py
+
 import encode
-import decode
 
 
 def menu():
@@ -9,6 +9,7 @@ def menu():
           "1. Encode"
           "2. Decode"
           "3. Quit\n")
+
 
 if __name__ == '__main__':
     option = -1
@@ -20,6 +21,6 @@ if __name__ == '__main__':
             password = encode.encode(password)
             print("Your password has been encoded and stored!\n")
         elif option == 2:
-            print(f"The encoded password is {password}, and the original password is {decode.decode(password)}")
+            print(f"The encoded password is {password}, and the original password is {password}")
         elif option == 3:
             exit()
