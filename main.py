@@ -21,3 +21,5 @@ if __name__ == '__main__':
             print("Your password has been encoded and stored!\n")
         elif option == 2:
             print(f"The encoded password is {password}, and the original password is {decode.decode(password)}")
+        elif option == 3:
+            exit()
