@@ -1,4 +1,7 @@
 #This is my main.py
+import encode
+import decode
+
 
 def menu():
     print("Menu"
