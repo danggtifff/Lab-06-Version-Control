@@ -6,6 +6,6 @@ def decode(coded):
     decoded = ""
     for num in li:
         num = int(num)
-        num += 3
+        num -= 3
         decoded += str(num)
     return decoded
