@@ -1,5 +1,5 @@
 #Tiffany's second account
-#editing
+#edited from second account
 
 def decode(coded):
     li = list(coded)
